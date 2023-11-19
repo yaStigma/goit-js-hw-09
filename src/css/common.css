@@ -34,6 +34,7 @@ button {
 
 button[data-start]:disabled {
   background-color: #cccccc;
+  color: #7d7575;
   cursor: not-allowed;
 }
 
@@ -43,4 +44,44 @@ button[data-start]:not(:disabled):hover {
 
 button[data-stop]:hover {
   background-color: #f44336;
+}
+
+.input {
+  margin: 0;
+
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+input {
+  padding: 20px;
+  font-size: 20px;
+  text-align: center;
+}
+
+.timer {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.field {
+  display: flex;
+  flex-direction: column-reverse;
+  margin: 0 20;
+  text-align: center;
+}
+
+.value {
+  font-size: 36px;
+  font-weight: bold;
+  color: #45a049;
+}
+
+.label {
+  font-size: 16px;
+  color: #555;
 }
